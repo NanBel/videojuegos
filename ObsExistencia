@@ -1,0 +1,18 @@
+/** esta clase determinará cuantos elementos quedan del total en stock, cuando estos sean 10 o menos**/
+import java.util.Observer;
+import java.util.Observable;
+
+
+public class ObsExistencia implements Observer{
+  private int cantidad
+
+  public void update(Observable Observable, Object cantidad){
+    this.cantidad=((Videojuego)observable).getStock();
+    verificar();
+  }
+  public void verificar(){
+    if(cantidad<=10){
+      System.out.println("Este producto tiene pocos elementos en Stock ("+cantidad+")");
+    }
+  }
+}//de la clase
