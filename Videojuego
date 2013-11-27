@@ -1,0 +1,15 @@
+public abstract class Videojuego{
+  String nombre, compania,consola;
+  int anioLanzamiento,cantidad;
+  float precio;
+  
+  
+  public void ordenar(){
+  }
+  public void exibir(){
+  }
+  public void vender(){
+  }
+  
+
+}
