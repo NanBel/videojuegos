@@ -1,0 +1,20 @@
+/**implementacion de metodo de fábrica**/
+public abstract class Videojuego{
+  String nombre, compania,consola;
+  int anioLanzamiento,cantidad;
+  float precio;
+  
+  public String getNombre(){
+    return nombre;
+  }
+  public void surtir(){// referente a q la tienda se surta de cierto juego
+      System.out.println("Comprando lo necesario para abastecer nuestra tienda");
+  }
+  public void exibir(){
+  
+  }
+  public void vender(){
+  }
+  
+
+}
