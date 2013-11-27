@@ -11,7 +11,7 @@ public class ObsSinExistencia implements Observer{
   }
   public void verificar(){
     if(cantidad<1){
-      System.out.println("Este producto ya no tiene más elementos");
+      System.out.println("Este producto ya no tiene más elementos en Stock");
     }
   }
 }
